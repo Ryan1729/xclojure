@@ -20,7 +20,7 @@ hold your solution (such as =bob.clj=) you can run the tests using
 First, =require= the test namespace:
 
 #+BEGIN_SRC clojure
-    => (require 'bob-test)
+    => (require 'bob-test :reload-all)
     nil
 #+END_SRC
 
